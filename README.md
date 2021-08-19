@@ -178,7 +178,7 @@ There are 2 descriptions for each regex.
 <p>
 <a href="https://opencollective.com/ihateregex">Donate via Opencollective</a>
 </p>
-
+----
 
 ## Credits
 
