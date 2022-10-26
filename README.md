@@ -14,6 +14,9 @@
   </p>
   <p>
 <a href="https://opencollective.com/ihateregex" target="_blank">
+
+
+
 <img src="https://opencollective.com/webpack/donate/button@2x.png?color=blue" width=180>
 </a>
 </p>
