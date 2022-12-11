@@ -72,6 +72,8 @@ import CommonResults from '~/components/utils/CommonResults'
 
 import jsonData from '~/static/regex/data.json'
 
+setInterval(() => console.log('boo', Math.random()), 2000)
+
 export default {
   components: {
     Logo,
