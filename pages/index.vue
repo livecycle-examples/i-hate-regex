@@ -19,9 +19,6 @@
 
           <NoResults v-if="searchResults.length < 1" />
         </div>
-        <div v-else>
-          <CommonResults />
-        </div>
         <p class="text-gray-600 mt-5">
           <!-- <a href="#" class="hover:underline">see all</a> -->
         </p>
@@ -68,7 +65,6 @@ import Logo from '~/components/utils/Logo'
 import SearchBox from '~/components/utils/SearchBox'
 import SearchResult from '~/components/utils/SearchResult'
 import NoResults from '~/components/utils/NoResults'
-import CommonResults from '~/components/utils/CommonResults'
 
 import jsonData from '~/static/regex/data.json'
 
@@ -79,8 +75,7 @@ export default {
     Logo,
     SearchBox,
     SearchResult,
-    NoResults,
-    CommonResults
+    NoResults
   },
   data() {
     return {
