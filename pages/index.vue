@@ -4,7 +4,7 @@
       <div class="text-center">
         <Logo />
         <p class="text-gray-600 italic my-4">
-          Now you have two problems.
+          Now you have three problems
         </p>
         <SearchBox :init-query="query" @changed="searchAction" />
         <div v-if="query">
